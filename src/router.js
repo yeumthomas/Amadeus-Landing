@@ -7,27 +7,41 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import About from "./views/About.vue";
+import Pricing from "./views/Pricing.vue";
 
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
+  history: true,
+  historyApiFallback: true,
   linkExactActiveClass: "active",
   routes: [
     {
       path: "/",
-      name: "components",
-      components: {
-        header: AppHeader,
-        default: Components,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/landing",
       name: "landing",
       components: {
         header: AppHeader,
         default: Landing,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/about",
+      name: "about",
+      components: {
+        header: AppHeader,
+        default: About,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/pricing",
+      name: "Pricing",
+      components: {
+        header: AppHeader,
+        default: Pricing,
         footer: AppFooter
       }
     },
