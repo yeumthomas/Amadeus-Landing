@@ -68,8 +68,10 @@ $colors: map-merge((
 ), $colors);
 
 $default:       #172b4d !default;
-$primary:       #5e72e4 !default;
+$primary:       #0c88c2 !default;
 $secondary:     #f4f5f7 !default;
+$tertiary:      #6f4370 !default;
+$quaternary:    #f0c4f1 !default;
 $success:       $green !default;
 $info:          $teal !default;
 $warning:       $orange !default;
@@ -93,6 +95,8 @@ $theme-colors: map-merge((
   "default":      $default,
   "primary":      $primary,
   "secondary":    $secondary,
+  "tertiary":     $tertiary,
+  "quaternary":   $quaternary,
   "success":      $success,
   "info":         $info,
   "warning":      $warning,
@@ -119,8 +123,9 @@ $brand-colors: map-merge((
 $shape-colors: () !default;
 $shape-colors: map-merge((
   "default":      #32325d,
-  "primary":      #5533ff,
+  "primary":      #0e91e2,
   "secondary":    #24b47e,
+  "tertiary":     #6f4370,
   "neutral":      #e9ecef,
   "blue-gray":    #b2cbe1,
 
@@ -128,7 +133,7 @@ $shape-colors: map-merge((
 
 $shapes-primary-colors: () !default;
 $shapes-primary-colors: map-merge((
-  "step-1-gradient-bg":         #281483,
+  "step-1-gradient-bg":         #0c88c2,
   "step-2-gradient-bg":         #8f6ed5,
   "step-3-gradient-bg":         #d782d9,
   "span-1-bg":                  #53f,
@@ -140,9 +145,9 @@ $shapes-primary-colors: map-merge((
 
 $shapes-default-colors: () !default;
 $shapes-default-colors: map-merge((
-  "step-1-gradient-bg":         #7795f8,
-  "step-2-gradient-bg":         #6772e5,
-  "step-3-gradient-bg":         #555abf,
+  "step-1-gradient-bg":         #1196d3,
+  "step-2-gradient-bg":         #0d73a3,
+  "step-3-gradient-bg":         #1b5ba3,
   "span-1-bg":                  #7795f8,
   "span-2-bg":                  #7b9aff,
   "span-3-bg":                  #6f8ff8,
@@ -259,6 +264,11 @@ $spacers: map-merge((
   3: $spacer,
   4: ($spacer * 1.5),
   5: ($spacer * 3),
+  6: ($spacer * 4.5),
+  7: ($spacer * 6),
+  8: ($spacer * 7.5),
+  9: ($spacer * 9),
+  10: ($spacer * 10),
   'sm': ($spacer * 2),
   'md': ($spacer * 4),
   'lg': ($spacer * 6),
@@ -313,6 +323,7 @@ $transition-collapse:         height .35s ease !default;
 
 $font-family-base: 'Open Sans', sans-serif !default;
 $font-family-alt: 'Open Sans', sans-serif !default;
+$font-header: 'Helvetica Neue' !default;
 
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-xl:                ($font-size-base * 1.5);
