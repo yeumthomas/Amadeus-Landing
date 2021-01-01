@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-            <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-left">
+            <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
                 <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Home</span>
