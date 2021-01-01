@@ -1,6 +1,6 @@
 <template>
-    <header class="header-global">
-        <base-nav class="navbar-main bg-warning" transparent type="" effect="light" expand>
+    <header class="header-global fixed-top">
+        <base-nav class="bg-default fixed-top" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
                 <img src="img/brand/white.png" alt="logo">
             </router-link>
@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-            <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Home</span>
@@ -30,15 +30,13 @@
                     <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Pricing</span>
                 </a>
-            </ul>
-            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item d-none d-lg-block ml-lg-4">
                     <a href="https://www.google.com" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
-                  <i class="fa fa-cloud-download mr-2"></i>
+                  <i class="ni ni-circle-08 mr-2"></i>
                 </span>
-                        <span class="nav-link-inner--text">Download</span>
+                        <span class="nav-link-inner--text">Register</span>
                     </a>
                 </li>
             </ul>

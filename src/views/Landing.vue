@@ -15,36 +15,38 @@
                 <span class="span-50"></span>
                 <span class="span-100"></span> -->
             </div>
-            <div class="container shape-container d-flex">
+            <div class="ml-lg-8 ml-md-5 ml-4 mr-4 mr-lg-0 mr-md-5 pt-7 shape-container d-flex">
                 <div class="row">
-                    <div class="col-6 px-0 mt-5 pt-5">
-                        <h1 class="display-3  text-white">Arrange Virtual Ensembles
-                            <span>with ease using automation</span>
-                        </h1>
+                    <div class="col-lg-5 col-md-12 col-xs-12 col-sm-12 px-0 mt-5 pt-5 mr-xs-2 mr-sm-2">
+                        <h1 class="display-2  text-secondary display-sm-4" style="font-family: Helvetica Neue">Arrange Virtual Ensembles 
+                            with AI.</h1>
                         <p class="lead  text-white">Skip the high fees, long editing time, and complicated 
                             production. Create your virtual ensemble recording with a single click.</p>
                         <div>
-                            <badge type="white" class="bg-info" rounded>Quick</badge>
-                            <badge type="white" class="bg-info" rounded>Affordable</badge>
-                            <badge type="white" class="bg-info" rounded>Painless</badge>
+                            <badge type="white" class="bg-tertiary" rounded>Customized</badge>
+                            <badge type="white" class="bg-tertiary" rounded>Affordable</badge>
+                            <badge type="white" class="bg-tertiary" rounded>Quick</badge>
                         </div>
-                        <div class="btn-wrapper mt-5">
+                        <div class="btn-wrapper mt-5 mb-5">
                             <base-button tag="a"
                                             href="https://"
                                             class="mb-3 mb-sm-0"
-                                            type="info"
-                                            icon="fa fa-code">
-                                Register Now
+                                            type="default"
+                                            icon="fa fa-edit">
+                                Create Now
                             </base-button>
                         </div>
-                    </div>
-                    <div class="col-6 px-0">
+                    </div>         
+                    <div class="col-lg-6 text-center mt-5 pt-5 d-xs-none d-lg-inline">
+                        <img src="../assets/media/macbook-mockup.png"
+                        class="img-fluid pt-4 d-none d-lg-inline">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section-lg pt-lg-0 mt--100">
+<!-- CARD SECTION WITH STATS -->
+        <!-- <section class="section section-lg pt-lg-0 mt--100">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -104,37 +106,43 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="section section-lg">
             <div class="container">
+                <div class="row mb-5 align-self-start">
+                    <div class="col text-center align-self-start">
+                        <icon name="fa fa-music" class=" align-items-center align-self-start" size="lg" type="primary" shadow
+                                  rounded></icon>
+                        <span class="display-1 text-default" style="font-family: Helvetica Neue">  By Musicians For Musicians</span>
+                    </div>
+                </div>
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
                         <img src="img/theme/promo-1.png" class="img-fluid floating">
                     </div>
-                    <div class="col-md-6 order-md-1">
+                    <div class="col-md-6 pl-md-5 order-md-1">
                         <div class="pr-md-5">
-                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
-                                  rounded></icon>
-                            <h3>Awesome features</h3>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
+                            <p>Our <strong class="text-default">completely automated </strong> virtual ensemble editor was born out of the setbacks that COVID-19 had brought
+                                to musicians and music educators. With live performance out of question, virtual ensemble recordings were the solution. However, this came at a high price with 
+                                some video editors <strong class="text-default"> charging up to $1000 per video</strong>: impossible to fund for many fine arts programs.
+                            </p>
                             <ul class="list-unstyled mt-5">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
-                                        <h6 class="mb-0">Carefully crafted components</h6>
+                                        <badge type="tertiary" circle class="mr-3" icon="fa fa-check"></badge>
+                                        <h6 class="mb-0">Budget Friendly</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
-                                        <h6 class="mb-0">Amazing page examples</h6>
+                                        <badge type="tertiary" circle class="mr-3" icon="fa fa-check"></badge>
+                                        <h6 class="mb-0">Client-First</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
-                                        <h6 class="mb-0">Super friendly support team</h6>
+                                        <badge type="tertiary" circle class="mr-3" icon="fa fa-check"></badge>
+                                        <h6 class="mb-0">Hands-Free</h6>
                                     </div>
                                 </li>
                             </ul>
@@ -143,43 +151,52 @@
                 </div>
             </div>
         </section>
-        <section class="section bg-secondary">
+
+
+
+
+
+
+        <section class="section section section-shaped my-0 overflow-hidden">
+            <div class="shape shape-style-1 shape-default shape-skew">
+            </div>
             <div class="container">
+                <div class="row pt-7 mb-5 align-self-start">
+                    <div class="col text-center align-self-start">
+                        <icon name="ni ni-settings" class=" align-items-center align-self-start bg-gradient-white" size="lg" type="primary" shadow
+                                  rounded></icon>
+                        <span class="display-1 text-white" style="font-family: Helvetica Neue"> Completed in 3 Steps</span>
+                    </div>
+                </div>
                 <div class="row row-grid align-items-center">
-                    <div class="col-md-6">
-                        <div class="card bg-default shadow border-0">
-                            <img v-lazy="'img/theme/img-1-1200x1000.jpg'" class="card-img-top">
-                            <blockquote class="card-blockquote">
-                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
-                                     class="svg-bg">
-                                    <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
-                                    <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
-                                </svg>
-                                <h4 class="display-3 font-weight-bold text-white">Design System</h4>
-                                <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of
-                                    the sea-ice then thaws every summer, and that process will continue whatever
-                                    happens.</p>
-                            </blockquote>
+                    <div class="col-md-6 order-lg-2 ml-lg-auto">
+                        <div class="position-relative pl-md-5">
+                            <img src="img/ill/ill-2.svg" class="img-center img-fluid">
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="pl-md-5">
-                            <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
-
-                            <h3>Our customers</h3>
-                            <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
-                                Just make sure you enable them first via JavaScript.</p>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
-                            <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful
-                                websites</a>
-                        </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow
+                                        rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-success">Awesome Support</h5>
+                                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
+                                        every summer, and that process will continue whatever happens.</p>
+                                    <a href="#" class="text-success">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+
         <section class="section section section-shaped my-0 overflow-hidden">
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
                 <span></span>
@@ -497,8 +514,9 @@
 </template>
 
 <script>
+import Images from './components/JavascriptComponents/Images.vue';
 export default {
   name: "home",
-  components: {}
+  components: {Images}
 };
 </script>
