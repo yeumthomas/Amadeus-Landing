@@ -1,54 +1,50 @@
 <template>
     <div>
 
-        <div class="position-relative">
             <!-- shape Hero -->
-            <section class="section-shaped my-0">
-                <div class="shape shape-style-1 shape-default shape-skew">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="container shape-container d-flex">
-                    <div class="col px-0">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <h1 class="display-3  text-white">A beautiful Design System
-                                    <span>completed with examples</span>
-                                </h1>
-                                <p class="lead  text-white">The design system comes with four pre-built pages to help
-                                    you get started faster. You can change the text and images and you're good to
-                                    go.</p>
-                                <div class="btn-wrapper">
-                                    <base-button tag="a"
-                                                 href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                                                 class="mb-3 mb-sm-0"
-                                                 type="info"
-                                                 icon="fa fa-code">
-                                        Components
-                                    </base-button>
-                                    <base-button tag="a"
-                                                 href="https://www.creative-tim.com/product/argon-design-system"
-                                                 class="mb-3 mb-sm-0"
-                                                 type="white"
-                                                 icon="ni ni-cloud-download-95">
-                                        Download HTML
-                                    </base-button>
-                                </div>
-                            </div>
+        <section class="section-hero section-shaped my-0">
+            <div class="shape shape-style-1 shape-primary">
+                <!-- <span class="span-150"></span>
+                <span class="span-50"></span>
+                <span class="span-50"></span>
+                <span class="span-75"></span>
+                <span class="span-100"></span>
+                <span class="span-75"></span>
+                <span class="span-50"></span>
+                <span class="span-100"></span>
+                <span class="span-50"></span>
+                <span class="span-100"></span> -->
+            </div>
+            <div class="container shape-container d-flex">
+                <div class="row">
+                    <div class="col-6 px-0 mt-5 pt-5">
+                        <h1 class="display-3  text-white">Arrange Virtual Ensembles
+                            <span>with ease using automation</span>
+                        </h1>
+                        <p class="lead  text-white">Skip the high fees, long editing time, and complicated 
+                            production. Create your virtual ensemble recording with a single click.</p>
+                        <div>
+                            <badge type="white" class="bg-info" rounded>Quick</badge>
+                            <badge type="white" class="bg-info" rounded>Affordable</badge>
+                            <badge type="white" class="bg-info" rounded>Painless</badge>
+                        </div>
+                        <div class="btn-wrapper mt-5">
+                            <base-button tag="a"
+                                            href="https://"
+                                            class="mb-3 mb-sm-0"
+                                            type="info"
+                                            icon="fa fa-code">
+                                Register Now
+                            </base-button>
                         </div>
                     </div>
+                    <div class="col-6 px-0">
+                    </div>
                 </div>
-            </section>
-            <!-- 1st Hero Variation -->
-        </div>
-        <section class="section section-lg pt-lg-0 mt--200">
+            </div>
+        </section>
+
+        <section class="section section-lg pt-lg-0 mt--100">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
