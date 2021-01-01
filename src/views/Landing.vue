@@ -1,92 +1,107 @@
 <template>
     <div>
+
         <div class="position-relative">
+            <!-- shape Hero -->
             <section class="section-shaped my-0">
-                
-                <div class="shape shape-style-1 shape-default bg-gradient-default shape-skew">
+                <div class="shape shape-style-1 shape-default shape-skew">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <div class="lg-only-padding-top shape-container align-self-center mt--200 pt-3 make-that-gap-even-smaller">
-                    <div class="pt-5"></div>
-                    <div id="myAlert" class="text-center alert rounded-0 alert-dismissible alert-success mx-5 my-2 alert-margin fade show" role="alert">
-                        <i class="fa fa-phone"></i> Book an Appointment: <a href="tel:7136477500" class="alert-link"> (713) 647-7500</a><strong>   |   </strong>
-                        <i class="fa fa-calendar-check-o"></i> Open Hours: MWF 9AM-5:30PM, Sat 9AM-4:30PM every other week
-                    </div>
-                    
-                    <div class="col-12 text-center align-self-center splash">
-                        <div class="ml-5 shape-container d-flex">
-                            <div class="col px-0">
-                                <div class="row mt-2 pt-5 text-left">
-                                </div>
-                                <div class="row text-left">
-                                    <div class="col-12 pl-0">
-                                        <h2 class="display-2 text-white font-weight-light mb-0">Welcome to</h2>
-                                        <h1 class="display-1 font-weight-bold text-white pt-0">Teeth Are Us Dental</h1>
-                                        <h2 class="display-2 font-weight-bold text-white pt-0">우리치과</h2>
-                                        <p class="lead text-white mb-0 mt-2"><em >"I am very happy with my children's care here."</em></p>
-                                        <p class="lead text-white my-0 pt-0">- E. P. (★★★★★)</p>
-                                        <p class="lead text-white my-0"><em >"They are super friendly and professional."</em></p>
-                                        <p class="lead text-white my-0 pt-0">- O. C. (★★★★★)</p>
-                                        <div class="btn-wrapper mt-3">
-                                            <button type="button" class="btn mb-3 mb-sm-0 btn-info">
-                                                <a href="/services" class="text-white">Explore Our Services</a>
-                                            </button>
-                                            <button type="button" class="btn mb-3 mb-sm-0 btn-primary">
-                                                <a href="/#schedule" class="text-white">Open Hours</a>
-                                            </button>
-                                        </div>
-                                    </div>
+                <div class="container shape-container d-flex">
+                    <div class="col px-0">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h1 class="display-3  text-white">A beautiful Design System
+                                    <span>completed with examples</span>
+                                </h1>
+                                <p class="lead  text-white">The design system comes with four pre-built pages to help
+                                    you get started faster. You can change the text and images and you're good to
+                                    go.</p>
+                                <div class="btn-wrapper">
+                                    <base-button tag="a"
+                                                 href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                                                 class="mb-3 mb-sm-0"
+                                                 type="info"
+                                                 icon="fa fa-code">
+                                        Components
+                                    </base-button>
+                                    <base-button tag="a"
+                                                 href="https://www.creative-tim.com/product/argon-design-system"
+                                                 class="mb-3 mb-sm-0"
+                                                 type="white"
+                                                 icon="ni ni-cloud-download-95">
+                                        Download HTML
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-- 1st Hero Variation -->
         </div>
-        
-        <!-- SECTION 1 STATISTICS -->
-        <section class="section section-lg pt-lg-0 mt--200 make-that-gap-even-smaller">
+        <section class="section section-lg pt-lg-0 mt--200">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="row row-grid">
-                            <div class="col-lg-3 col-md-6 mt-md-3">
-                                <card class="h-100 border-0" shadow body-classes="py-4">
-                                    <div class="align-items-center text-center">
-                                        <icon name="fa fa-handshake-o" type="warning" rounded class="mb-3">
-                                        </icon>
-                                        <h1 class="display-2 text-warning font-weight-bold text-uppercase">20+</h1>
-                                        <p class="text-warning">years of experience</p>
+                            <div class="col-lg-4">
+                                <card class="border-0" hover shadow body-classes="py-5">
+                                    <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
+                                    </icon>
+                                    <h6 class="text-primary text-uppercase">Download Argon</h6>
+                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
+                                        that includes the most important components and features.</p>
+                                    <div>
+                                        <badge type="primary" rounded>design</badge>
+                                        <badge type="primary" rounded>system</badge>
+                                        <badge type="primary" rounded>creative</badge>
                                     </div>
+                                    <base-button tag="a" href="#" type="primary" class="mt-4">
+                                        Learn more
+                                    </base-button>
                                 </card>
                             </div>
-                            <div class="col-lg-3 col-md-6 mt-md-3">
-                                <card class="h-100 border-0" shadow body-classes="py-4">
-                                    <div class="align-items-center text-center">
-                                        <icon name="ni ni-satisfied" type="primary" rounded class="mb-3">
-                                        </icon>
-                                        <h1 class="display-2 text-primary font-weight-bold text-uppercase">10K</h1>
-                                        <p class="text-primary">Improved Smiles</p>
+                            <div class="col-lg-4">
+                                <card class="border-0" hover shadow body-classes="py-5">
+                                    <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
+                                    </icon>
+                                    <h6 class="text-success text-uppercase">Build Something</h6>
+                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
+                                        4 that includes the most important components and features.</p>
+                                    <div>
+                                        <badge type="success" rounded>business</badge>
+                                        <badge type="success" rounded>vision</badge>
+                                        <badge type="success" rounded>success</badge>
                                     </div>
+                                    <base-button tag="a" href="#" type="success" class="mt-4">
+                                        Learn more
+                                    </base-button>
                                 </card>
                             </div>
-                            <div class="col-lg-3 col-md-6 mt-md-3">
-                                <card class="h-100 border-0" shadow body-classes="py-4">
-                                    <div class="align-items-center text-center">
-                                        <icon name="fa fa-users" type="info" rounded class="mb-3">
-                                        </icon>
-                                        <h1 class="display-2 text-info font-weight-bold text-uppercase">2</h1>
-                                        <p class="text-info">Dentists</p>
+                            <div class="col-lg-4">
+                                <card class="border-0" hover shadow body-classes="py-5">
+                                    <icon name="ni ni-planet" type="warning" rounded class="mb-4">
+                                    </icon>
+                                    <h6 class="text-warning text-uppercase">Prepare Launch</h6>
+                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
+                                        4 that includes the most important components and features.</p>
+                                    <div>
+                                        <badge type="warning" rounded>marketing</badge>
+                                        <badge type="warning" rounded>product</badge>
+                                        <badge type="warning" rounded>launch</badge>
                                     </div>
-                                </card>
-                            </div>
-                            <div class="col-lg-3 col-md-6 mt-md-3">
-                                <card class="h-100 border-0" shadow body-classes="py-4">
-                                    <div class="align-items-center text-center">
-                                        <icon name="fa fa-map-marker" type="success" rounded class="mb-3">
-                                        </icon>
-                                        <h1 class="display-2 text-success font-weight-bold text-uppercase">2</h1>
-                                        <p class="text-success">Our Locations</p>
-                                    </div>
+                                    <base-button tag="a" href="#" type="warning" class="mt-4">
+                                        Learn more
+                                    </base-button>
                                 </card>
                             </div>
                         </div>
@@ -94,234 +109,391 @@
                 </div>
             </div>
         </section>
-
-        <!-- SECTION 2 ABOUT BRIEF -->
-        <section class="section section-lg mt-lg--100 pt-0">
+        <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid align-items-center">
-                    <div class="col-lg-6 order-sm-2 align-items-center mt-sm-4 mt-md-5 mt-lg-0">
-                        <img src="img/teethareuspic.jpg" class="img-fluid rounded center-block">
+                    <div class="col-md-6 order-md-2">
+                        <img src="img/theme/promo-1.png" class="img-fluid floating">
                     </div>
-                    <div class="col-lg-6 order-sm-1">
-                        <div class="pr-lg-2">
-                        
-                            <h5 class="font-weight-light">20+ Years of Dental Excellence</h5>
-                            <h3><b>Welcome to Teeth Are Us Dental</b></h3>
-                            <p class="mt-3">If you are looking for a great dentist in Memorial give us a try. 
-                                Dentistry is our passion and we want you to receive care in our state-of-the-art dental office. 
-                                Our team at Teeth Are Us Dental is committed to creating a warm, comfortable and welcoming environment 
-                                for everyone.</p>
-                            <p class="mt-2"></p>
-                            <p>"Our team works with you to provide personalized, gentle care. We are committed to providing you and your family with high quality dental care."</p>
-                            <div class="btn-wrapper">
-                                <a href="/about"
-                                    class="btn btn-primary mb-3 mb-sm-0">More About Us <b>→</b></a>
+                    <div class="col-md-6 order-md-1">
+                        <div class="pr-md-5">
+                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
+                                  rounded></icon>
+                            <h3>Awesome features</h3>
+                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
+                                the text and images and you're good to go.</p>
+                            <ul class="list-unstyled mt-5">
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
+                                        <h6 class="mb-0">Carefully crafted components</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
+                                        <h6 class="mb-0">Amazing page examples</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
+                                        <h6 class="mb-0">Super friendly support team</h6>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section bg-secondary">
+            <div class="container">
+                <div class="row row-grid align-items-center">
+                    <div class="col-md-6">
+                        <div class="card bg-default shadow border-0">
+                            <img v-lazy="'img/theme/img-1-1200x1000.jpg'" class="card-img-top">
+                            <blockquote class="card-blockquote">
+                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+                                     class="svg-bg">
+                                    <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
+                                    <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
+                                </svg>
+                                <h4 class="display-3 font-weight-bold text-white">Design System</h4>
+                                <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of
+                                    the sea-ice then thaws every summer, and that process will continue whatever
+                                    happens.</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pl-md-5">
+                            <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
+
+                            <h3>Our customers</h3>
+                            <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
+                                Just make sure you enable them first via JavaScript.</p>
+                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
+                                the text and images and you're good to go.</p>
+                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
+                                the text and images and you're good to go.</p>
+                            <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful
+                                websites</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section section-shaped my-0 overflow-hidden">
+            <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="container py-0">
+                <div class="row row-grid align-items-center">
+                    <div class="col-md-6 order-lg-2 ml-lg-auto">
+                        <div class="position-relative pl-md-5">
+                            <img src="img/ill/ill-2.svg" class="img-center img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="d-flex px-3">
+                            <div>
+                                <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
+                                      rounded></icon>
+                            </div>
+                            <div class="pl-4">
+                                <h4 class="display-3 text-white">Modern Interface</h4>
+                                <p class="text-white">The Arctic Ocean freezes every winter and much of the sea-ice then
+                                    thaws every summer, and that process will continue whatever happens.</p>
                             </div>
                         </div>
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow
+                                          rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-success">Awesome Support</h5>
+                                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
+                                        every summer, and that process will continue whatever happens.</p>
+                                    <a href="#" class="text-success">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow
+                                          rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-warning">Modular Components</h5>
+                                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
+                                        every summer, and that process will continue whatever happens.</p>
+                                    <a href="#" class="text-warning">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- SERVICES INTRO -->
-        <section class="section section-xl bg-gradient-warning pt-lg-5 pb-5">
-            <div class="shape shape-style-1 shape-default bg-gradient-warning shape-skew">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        <section class="section section-lg">
             <div class="container">
-                <div class="row align-items-center mt-100 ">
-                    <div class="col text-center">
-                        <div class="icon icon-shape bg-gradient-white icon-lg shadow rounded-circle text-primary"><i class="fa fa-book"></i></div>
-                        <h1 class="text-center text-white pt-2"><b>Our Services</b></h1>
-                    </div>
-                    <div class="row align-items-center d-flex align-items-start align-content-stretch">
-                        <div class="h-100 col-md-6 d-flex align-self-start">
-                            <a href="/services" class="p-0">
-                                <card class="card-lift--hover shadow-lg--hover shadow mt-5">
-                                    <div class="d-flex px-1">
-                                        <div>
-                                            <icon name="ni ni-satisfied" gradient="warning" color="white" shadow
-                                                rounded></icon>
-                                        </div>
-                                        <div class="pl-4">
-                                            <h4 class="title text-warning">Cosmetic Dentistry</h4>
-                                            <p class=
-                                            "text-default">Cosmetic dentistry is concerned with the appearance of teeth 
-                                                and the enhancement of one's smile.</p>
-                                            <div>
-                                                <span class="badge badge-warning badge-pill">teeth whitening</span>
-                                                <span class="badge badge-warning badge-pill">gap closure</span>
-                                                <span class="badge badge-warning badge-pill">veneers</span>
-                                            </div>
-                                            <div class="mt-3"><a href="/services" class="text-warning">Learn more <b>→</b></a></div>
-                                        </div>
-                                    </div>
-                                </card>
-                            </a>
-                        </div>
-                        <div class="h-100 col-md-6 d-flex align-self-start">
-                            <a href="/services" class="p-0">
-                                <card class="card-lift--hover shadow-lg--hover shadow mt-5">
-                                    <div class="d-flex px-3">
-                                        <div>
-                                            <icon name="fa fa-heart" gradient="success" color="white" shadow
-                                                rounded></icon>
-                                        </div>
-                                        <div class="pl-4">
-                                            <h4 class="title text-success">General Dentistry</h4>
-                                            <p class=
-                                            "text-default">General dentists provide services related to the general maintenance
-                                                of oral hygiene and tooth health.</p>
-                                            <div>
-                                                <span class="badge badge-success badge-pill">checkups</span>
-                                                <span class="badge badge-success badge-pill">root canals</span>
-                                                <span class="badge badge-success badge-pill">tooth extractions</span>
-                                            </div>
-                                            <div class="mt-3"><a href="/services" class="text-success">Learn more <b>→</b></a></div>
-                                        </div>
-                                    </div>
-                                </card>
-                            </a>
-                        </div>
-                        <div class="h-100 col-md-6 d-flex align-self-start">
-                            <a href="/services" class="p-0">
-                                <card class=" card-lift--hover shadow-lg--hover shadow mt-5 p-0">
-                                    <div class="d-flex px-3">
-                                        <div>
-                                            <icon name="fa fa-child" gradient="primary" color="white" shadow
-                                                rounded></icon>
-                                        </div>
-                                        <div class="pl-4">
-                                            <h4 class="title text-primary">Pediatric Dentistry</h4>
-                                            <p class=
-                                            "text-default">Pediatric dentistry encompasses oral care for your children and providing them with careful and gentle treatment.
-                                            </p>
-                                            <div>
-                                                <span class="badge badge-primary badge-pill">preventative screening</span>
-                                                <span class="badge badge-primary badge-pill">baby root canal</span>
-                                            </div>
-                                            <div class="mt-3"><a href="/services" class="text-primary">Learn more <b>→</b></a></div>
-                                        </div>
-                                    </div>
-                                </card>
-                            </a>
-                        </div>
-                        <div class="h-100 col-md-6 d-flex align-self-start">
-                            <a href="/services" class="p-0">
-                                <card class="card-lift--hover shadow-lg--hover shadow mt-5">
-                                    <div class="d-flex px-3">
-                                        <div>
-                                            <icon name="fa fa-ambulance" gradient="info" color="white" shadow
-                                                rounded></icon>
-                                        </div>
-                                        <div class="pl-4">
-                                            <h4 class="title text-info">Dental Emergency</h4>
-                                            <p class=
-                                            "text-default">Dental emergencies do happen and we are here to help you find the immediate dental services you need.</p>
-                                            <div>
-                                                <span class="badge badge-info badge-pill">chipped tooth</span>
-                                                <span class="badge badge-info badge-pill">gum infection</span>
-                                                <span class="badge badge-info badge-pill">severe toothache</span>
-                                            </div>
-                                            <div class="mt-3"><a href="/services" class="text-info">Learn more <b>→</b></a></div>
-                                        </div>
-                                    </div>
-                                </card>
-                            </a>
-                        </div>
+                <div class="row justify-content-center text-center mb-lg">
+                    <div class="col-lg-8">
+                        <h2 class="display-3">The amazing Team</h2>
+                        <p class="lead text-muted">According to the National Oceanic and Atmospheric Administration,
+                            Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-                    
-        <!-- DENTIST BIO INTRO -->
-
-        <section class="section section-xl section-shaped my-0 pb-3 mt-lg-5 pt-100 mb-lg-5 make-that-gap-smaller">
-            <div class="container mt--100">
-                <div class="row row-grid align-items-center d-lg-none">
-                    <div class="col-md-12">
-                        <div class="position-relative pl-md-5">
-                            <img src="img/aboji-umoni.png" class="img-center img-fluid center-block make-that-pic-smaller">
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-grid align-items-center mt-3">
-                    <div class="col-md-6 ml-lg-auto">
-                        <div class="position-relative pl-md-5 dont-display-on-md">
-                            <img src="img/aboji-umoni.png" class="img-center img-fluid center-block">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-1">
-                        <div class="d-flex px-3">
-                            <div class="pl-md-4">
-                                <h4 class=" text-default text-center">Looking for a <h4 class="display-3 text-success inline text-center">Certified Dentist?</h4></h4>
-                                <p class="text-default text-center">We're always accepting new patients! We believe in providing the best possible 
-                                    care for all of our existing patients and welcome new patients to sample the services we have to offer.</p>
-                                <div class="text-center">
-                                    <a href="tel:7136477500" class="font-weight-bold text-success display-4 ml--"><icon name="fa fa-phone" class="p-0 mx-0"></icon>(713) 647-7500</a>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="px-4">
+                            <img v-lazy="'img/theme/team-1-800x800.jpg'"
+                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                                 style="width: 200px;">
+                            <div class="pt-4 text-center">
+                                <h5 class="title">
+                                    <span class="d-block mb-1">Ryan Tompson</span>
+                                    <small class="h6 text-muted">Web Developer</small>
+                                </h5>
+                                <div class="mt-3">
+                                    <base-button tag="a" href="#" type="warning" icon="fa fa-twitter" rounded
+                                                 icon-only></base-button>
+                                    <base-button tag="a" href="#" type="warning" icon="fa fa-facebook" rounded
+                                                 icon-only></base-button>
+                                    <base-button tag="a" href="#" type="warning" icon="fa fa-dribbble" rounded
+                                                 icon-only></base-button>
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="px-4">
+                            <img v-lazy="'img/theme/team-2-800x800.jpg'"
+                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                                 style="width: 200px;">
+                            <div class="pt-4 text-center">
+                                <h5 class="title">
+                                    <span class="d-block mb-1">Romina Hadid</span>
+                                    <small class="h6 text-muted">Marketing Strategist</small>
+                                </h5>
+                                <div class="mt-3">
+                                    <base-button tag="a" href="#" type="primary" icon="fa fa-twitter" rounded
+                                                 icon-only></base-button>
+                                    <base-button tag="a" href="#" type="primary" icon="fa fa-facebook" rounded
+                                                 icon-only></base-button>
+                                    <base-button tag="a" href="#" type="primary" icon="fa fa-dribbble" rounded
+                                                 icon-only></base-button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="px-4">
+                            <img v-lazy="'img/theme/team-3-800x800.jpg'"
+                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                                 style="width: 200px;">
+                            <div class="pt-4 text-center">
+                                <h5 class="title">
+                                    <span class="d-block mb-1">Alexander Smith</span>
+                                    <small class="h6 text-muted">UI/UX Designer</small>
+                                </h5>
+                                <div class="mt-3">
+                                    <base-button tag="a" href="#" type="info" icon="fa fa-twitter" rounded
+                                                 icon-only></base-button>
+                                    <base-button tag="a" href="#" type="info" icon="fa fa-facebook" rounded
+                                                 icon-only></base-button>
+                                    <base-button tag="a" href="#" type="info" icon="fa fa-dribbble" rounded
+                                                 icon-only></base-button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="px-4">
+                            <img v-lazy="'img/theme/team-4-800x800.jpg'"
+                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                                 style="width: 200px;">
+                            <div class="pt-4 text-center">
+                                <h5 class="title">
+                                    <span class="d-block mb-1">John Doe</span>
+                                    <small class="h6 text-muted">Founder and CEO</small>
+                                </h5>
+                                <div class="mt-3">
+                                    <base-button tag="a" href="#" type="success" icon="fa fa-twitter" rounded
+                                                 icon-only></base-button>
+                                    <base-button tag="a" href="#" type="success" icon="fa fa-facebook" rounded
+                                                 icon-only></base-button>
+                                    <base-button tag="a" href="#" type="success" icon="fa fa-dribbble" rounded
+                                                 icon-only></base-button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- TESTIMONIALS -->
-        <section class="section section-xl section-shaped my-0 px-0 pt-5 pb-100">
-            <div class="container px-0">
-                <card class="rounded-xl bg-gradient-primary shadow-lg">
-                <div class="row text-center">
-                    <div class="col">
-                            <h6 class="text-center text-white">What People Are Saying</h6>
-                            <h1 class="text-center text-white text-weight-bold">TESTIMONIALS</h1>
-                        <div class="row px-5 align-items-center">
-                            <p class="text-white">Please take a look below at some of the recent testimonials we have received from our 
-                                patients. We welcome patient feedback to let us know how we can improve – please send us 
-                                details of your experience.</p>
-                            <div class="btn-wrapper col align-items-center mb-5">
-                                    <base-button tag="a"
-                                                 href="https://www.google.com/search?sxsrf=ALeKk015UBmyWpN8lTW5uIfNOPtcFUiK3g%3A1608178686234&ei=_tvaX8zjDZH4tAXQtoS4BQ&q=teeth+are+us+dental+reviews+google#lrd=0x8640c4307dae39e9:0xfc6b2e0eafb7bd90,1,,,"
-                                                 class="mb-3 mb-sm-0"
-                                                 type="info"
-                                                 icon="fa fa-file-text-o"
-                                                 target="_blank">
-                                        View More Reviews
-                                    </base-button>
+        <section class="section section-lg pt-0">
+            <div class="container">
+                <card gradient="warning"
+                      no-body
+                      shadow-size="lg"
+                      class="border-0">
+                    <div class="p-5">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <h3 class="text-white">We made website building easier for you.</h3>
+                                <p class="lead text-white mt-3">I will be the leader of a company that ends up being
+                                    worth billions of dollars, because I got the answers. I understand culture.</p>
                             </div>
-                        </div>
-                        <div class="row align-items-start justify-content-around">
-                            <div class="col-md-5 mx-0 mb-3 px-0">
-                                <card class="bg-white">
-                                    <h5>General Dentistry</h5>
-                                    <p class="text-info font-weight-light">★★★★★</p>
-                                    <p class="font-italic">"It's great to take care of the patient with sincerity and explain the details of dental caries & 
-                                        each treatment. I am also very happy with my children's care here. In addition, the reservation 
-                                        system is also good so you don't have to wait if you made a reservation previously."</p>
-                                    <p class="font-weight-bold">- E. P., <span class="font-italic text-info font-weight-light">patient</span></p>
-                                </card>
-                            </div>
-                            <div class="col-md-5 mx-0 mb-3 px-0">
-                                <card class="bg-white">
-                                    <h5>Pediatric Dentistry</h5>
-                                    <p class="text-warning font-weight-light">★★★★★</p>
-                                    <p class="font-italic">"I am so grateful that I found Teeth Are Us Dental Group. I am 100% satisfied with the services 
-                                        they provide. They are very professional and customer service is top-notch. My son used to be afraid to go to 
-                                        the dentist, now he smiles when I tell him it’s time to go. Sure makes my job stress free."</p>
-                                    <p class="font-weight-bold">- J. F., <span class="font-italic text-warning font-weight-light">patient</span></p>
-                                </card>
+                            <div class="col-lg-3 ml-lg-auto">
+                                <base-button tag="a" href="https://www.creative-tim.com/product/vue-argon-design-system"
+                                             type="white" block size="lg">
+                                    Download Vue
+                                </base-button>
                             </div>
                         </div>
                     </div>
-
-                </div>
                 </card>
+            </div>
+        </section>
+        <section class="section section-shaped my-0 overflow-hidden">
+            <div class="shape shape-style-3 bg-gradient-default shape-skew">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="container pt-lg pb-300">
+                <div class="row text-center justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="display-3 text-white">Build something</h2>
+                        <p class="lead text-white">According to the National Oceanic and Atmospheric Administration,
+                            Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
+                            tihs year down to low ice.</p>
+                    </div>
+                </div>
+                <div class="row row-grid mt-5">
+                    <div class="col-lg-4">
+                        <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon>
+                        <h5 class="text-white mt-3">Building tools</h5>
+                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary"></icon>
+                        <h5 class="text-white mt-3">Grow your market</h5>
+                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
+                        <h5 class="text-white mt-3">Launch time</h5>
+                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg pt-lg-0 section-contact-us">
+            <div class="container">
+                <div class="row justify-content-center mt--300">
+                    <div class="col-lg-8">
+                        <card gradient="secondary" shadow body-classes="p-lg-5">
+                            <h4 class="mb-1">Want to work with us?</h4>
+                            <p class="mt-0">Your project is very important to us.</p>
+                            <base-input class="mt-5"
+                                        alternative
+                                        placeholder="Your name"
+                                        addon-left-icon="ni ni-user-run">
+                            </base-input>
+                            <base-input alternative
+                                        placeholder="Email address"
+                                        addon-left-icon="ni ni-email-83">
+                            </base-input>
+                            <base-input class="mb-4">
+                                    <textarea class="form-control form-control-alternative" name="name" rows="4"
+                                              cols="80" placeholder="Type a message..."></textarea>
+                            </base-input>
+                            <base-button type="default" round block size="lg">
+                                Send Message
+                            </base-button>
+                        </card>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg">
+            <div class="container">
+                <div class="row row-grid justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="display-3">Do you love this awesome
+                            <span class="text-success">Design System for Bootstrap 4?</span>
+                        </h2>
+                        <p class="lead">Cause if you do, it can be yours for FREE. Hit the button below to navigate to
+                            Creative Tim where you can find the Design System in HTML. Start a new project or give an
+                            old Bootstrap project a new look!</p>
+                        <div class="btn-wrapper">
+                            <a href="https://www.creative-tim.com/product/vue-argon-design-system"
+                               class="btn btn-primary mb-3 mb-sm-0">Download Vue</a>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-2 col-4">
+                                    <a href="https://getbootstrap.com/" target="_blank" data-toggle="tooltip"
+                                       data-original-title="Bootstrap 4 - Most popular front-end component library">
+                                        <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg'"
+                                             class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-4">
+                                    <a href="https://www.sketchapp.com/" target="_blank" data-toggle="tooltip"
+                                       data-original-title="[Coming Soon] Sketch - Digital design toolkit">
+                                        <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg'"
+                                             class="img-fluid opacity-5">
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-4">
+                                    <a href="https://www.adobe.com/products/photoshop.html" data-toggle="tooltip"
+                                       data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
+                                        <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg'"
+                                             class="img-fluid  opacity-5">
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-4">
+                                    <a href="https://vuejs.org/" target="_blank" data-toggle="tooltip"
+                                       data-original-title="Vue.js - The progressive javascript framework">
+                                        <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg'"
+                                             class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-4">
+                                    <a href="https://angularjs.org/" target="_blank" data-toggle="tooltip"
+                                       data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
+                                        <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg'"
+                                             class="img-fluid opacity-5">
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-4">
+                                    <a href="https://reactjs.org/" target="_blank" data-toggle="tooltip"
+                                       data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
+                                        <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg'"
+                                             class="img-fluid opacity-5">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -329,65 +501,8 @@
 </template>
 
 <script>
-import App from '../App.vue';
-import Icon from '../components/Icon.vue';
 export default {
   name: "home",
-  components: {App, Icon},
-  data() {
-      return {
-        showDismissibleAlert: false
-      }
-  }
-}
+  components: {}
+};
 </script>
-<style scoped>
-@media (min-width: 991px) { 
-    .lg-only-padding-top {
-        padding-top: 15rem !important;
-    }
-}
-
-.icon-padd {
-    padding: 0rem 0rem !important;
-    margin: 0rem 0rem !important;
-}
-.alert-margin {
-    margin: 0rem !important;
-    max-width: 100%;
-}
-.splash {
-    background-image: url(../../public/img/fam-smiling-6.jpg);
-    margin: 0rem;
-    padding-left: 2rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: inset 0 0 0 45rem rgba(0,0,0,.6);
-    max-width: calc(100%);
-    min-height: 500px;
-}
-
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
-
-@media (max-width: 992px) { 
-    .dont-display-on-md {
-        display: none;
-    }
-
-    .make-that-gap-smaller {
-        padding-top: 3rem;
-    }
-
-    .make-that-gap-even-smaller {
-        padding-top: 0rem;
-    }
-
-    .make-that-pic-smaller {
-        max-width: 70%;
-    }
-}
-</style>

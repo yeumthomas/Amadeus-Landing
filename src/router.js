@@ -7,61 +7,27 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
-import AboutUs from "./views/AboutUs.vue"
-import ContactUs from "./views/ContactUs.vue"
-import Services from "./views/Services.vue"
-import NotFound from "./views/NotFound.vue"
 
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
-  history: true,
-  historyApiFallback: true,
   linkExactActiveClass: "active",
   routes: [
     {
-      path: '*',
-      name: 'notfound',
+      path: "/",
+      name: "components",
       components: {
         header: AppHeader,
-        default: NotFound,
+        default: Components,
         footer: AppFooter
       }
     },
     {
-      path: "/",
+      path: "/landing",
       name: "landing",
       components: {
         header: AppHeader,
         default: Landing,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/about",
-      name: "about us",
-      components: {
-        header: AppHeader,
-        default: AboutUs,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/contact",
-      name: "contact us",
-      components: {
-        header: AppHeader,
-        default: ContactUs,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/services",
-      name: "services",
-      components: {
-        header: AppHeader,
-        default: Services,
         footer: AppFooter
       }
     },
