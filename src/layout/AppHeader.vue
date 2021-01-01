@@ -18,15 +18,15 @@
             </div>
 
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-                <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                <a slot="title" href="/" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Home</span>
                 </a>
-                <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                <a slot="title" href="/about" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">About</span>
                 </a>
-                <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                <a slot="title" href="/pricing" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Pricing</span>
                 </a>
