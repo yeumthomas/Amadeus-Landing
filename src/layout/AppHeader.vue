@@ -22,10 +22,6 @@
                     <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Home</span>
                 </a>
-                <a slot="title" href="/about" class="nav-link" data-toggle="dropdown" role="button">
-                    <i class="ni ni-ui-04 d-lg-none"></i>
-                    <span class="nav-link-inner--text">About</span>
-                </a>
                 <a slot="title" href="/pricing" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Pricing</span>

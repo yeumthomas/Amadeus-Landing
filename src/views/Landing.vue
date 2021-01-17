@@ -156,8 +156,8 @@
                         <span class="display-1 text-white" style="font-family: Helvetica Neue"> Completed in 3 Steps</span>
                     </div>
                 </div>
-                <div class="row row-grid align-items-center">
-                    <div class="col-lg-12 order-lg-2">
+                <div class="row row-grid align-items-center justify-content-center">
+                    <div class="col-lg-9 order-lg-2">
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
@@ -174,8 +174,8 @@
                         </card>
                     </div>
                 </div>
-                <div class="row row-grid align-items-center">
-                    <div class="col-lg-12 order-lg-1">
+                <div class="row row-grid align-items-center justify-content-center">
+                    <div class="col-lg-9 order-lg-1">
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
@@ -191,12 +191,12 @@
                         </card>
                     </div>
                 </div>
-                <div class="row row-grid align-items-center">
-                    <div class="col-lg-12 order-lg-2">
+                <div class="row row-grid align-items-center justify-content-center">
+                    <div class="col-lg-9">
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="fa fa-video-camera" gradient="tertiary" color="white" shadow
+                                    <icon name="fa fa-play" gradient="tertiary" color="white" shadow
                                         rounded></icon>
                                 </div>
                                 <div class="pl-4">
@@ -213,13 +213,24 @@
         </section>
 
 
+
+
+
+
+
         <section class="section section-lg">
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
+                    <div class="row mb-3 align-self-start">
+                        <div class="col text-center align-self-start">
+                            <icon name="fa fa-user" class=" align-items-center align-self-start bg-default" size="lg" type="white" shadow
+                                  rounded></icon>
+                            <span class="display-1 text-default" style="font-family: Helvetica Neue"> Amadeus was Developed by</span>
+                        </div>
+                    </div>
                     <div class="col-lg-8">
-                        <h2 class="display-3">Amadeus was developed by</h2>
-                        <h4 class="lead">A Student. Programmer. Violist. Composer.</h4>
-                        <p class="lead text-muted">Hey, I'm Thomas. I made this service after I saw the impact of COVID-19 on
+                        <h4 class="lead mt-0 font-weight-bold">A Student. Programmer. Violist. Composer.</h4>
+                        <p class="lead text-muted mb-5">Hey, I'm Thomas. I made this service after I saw the impact of COVID-19 on
                                                     music education in America. This was the solution I came up with.
                         </p>
                     </div>
