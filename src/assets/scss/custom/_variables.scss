@@ -81,7 +81,7 @@ $dark:          $gray-900 !default;
 $darker:        darken($gray-900, 15%) !default;
 
 $facebook:      #3b5999 !default;
-$twitter:       #1da1f2 !default;
+$twitter:       #0072b1 !default; // #1da1f2 <- true twitter color
 $google-plus:   #dd4b39 !default;
 $instagram:     #e4405f !default;
 $pinterest:     #bd081c !default;
@@ -89,6 +89,7 @@ $youtube:       #cd201f !default;
 $slack:         #3aaf85 !default;
 $dribbble:      #ea4c89 !default;
 $github:        #222222 !default;
+$linkedin:      #0072b1  !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -117,7 +118,8 @@ $brand-colors: map-merge((
   "youtube":      $youtube,
   "slack":        $slack,
   "dribbble":     $dribbble,
-  "github":       $github
+  "github":       $github,
+  "linked-in":    $linkedin,
 ), $brand-colors);
 
 $shape-colors: () !default;
