@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="row row-grid align-items-center justify-content-center">
-                    <div class="col-lg-9 order-lg-2">
+                    <div class="col-lg-6 order-lg-2">
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
@@ -175,7 +175,7 @@
                     </div>
                 </div>
                 <div class="row row-grid align-items-center justify-content-center">
-                    <div class="col-lg-9 order-lg-1">
+                    <div class="col-lg-6 order-lg-1">
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
                 <div class="row row-grid align-items-center justify-content-center">
-                    <div class="col-lg-9">
+                    <div class="col-lg-6">
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
