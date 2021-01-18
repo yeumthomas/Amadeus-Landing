@@ -4,7 +4,7 @@
             <a class="navbar-brand mr-lg-5" href="https://amadeus.video">
                 <img src="img/logo-white.png" alt="logo" style="width: 150px; height: auto;">
             </a>
-
+ 
             <!-- For Mobile View -->
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
