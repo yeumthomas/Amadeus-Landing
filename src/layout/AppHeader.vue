@@ -1,14 +1,14 @@
 <template>
     <header class="header-global fixed-top">
         <base-nav class="bg-default fixed-top" transparent type="" effect="light" expand>
-            <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
+            <a class="navbar-brand mr-lg-5" href="https://amadeus.video">
                 <img src="img/logo-white.png" alt="logo" style="width: 150px; height: auto;">
-            </router-link>
+            </a>
 
             <!-- For Mobile View -->
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <a href="https://www.google.com">
+                    <a href="https://www.amadeus.video">
                         <img src="img/brand/blue.png">
                     </a>
                 </div>
@@ -27,11 +27,11 @@
                     <span class="nav-link-inner--text">Pricing</span>
                 </a>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://www.google.com" target="_blank" rel="noopener"
+                    <a href="https://www.create.amadeus.video/register" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
-                <span class="btn-inner--icon">
-                  <i class="ni ni-circle-08 mr-2"></i>
-                </span>
+                        <span class="btn-inner--icon">
+                        <i class="ni ni-circle-08 mr-2"></i>
+                        </span>
                         <span class="nav-link-inner--text">Register</span>
                     </a>
                 </li>
