@@ -27,7 +27,7 @@
                     <span class="nav-link-inner--text">Pricing</span>
                 </a>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://www.create.amadeus.video/register" target="_blank" rel="noopener"
+                    <a href="https://www.my.amadeus.video/login" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                         <span class="btn-inner--icon">
                         <i class="ni ni-circle-08 mr-2"></i>
