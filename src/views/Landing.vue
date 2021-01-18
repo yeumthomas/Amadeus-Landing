@@ -109,7 +109,7 @@
                 </div>
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
-                        <img src="img/theme/promo-1.png" class="img-fluid floating">
+                        <img src="graphic.png" style="min-width: 100%" class="img-fluid floating">
                     </div>
                     <div class="col-md-6 pl-md-5 order-md-1">
                         <div class="pr-md-5">
