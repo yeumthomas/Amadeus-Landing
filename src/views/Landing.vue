@@ -166,8 +166,8 @@
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-tertiary"><strong>STEP 1:</strong> Record with a Clap</h5>
-                                    <p class="text-default">Instruct musicians to clap a set time period before playing at beginning of clip. Our algorithm will 
-                                        use this as a benchmark to align the music in each individual recording.
+                                    <p class="text-default">Instruct musicians to clap a set time period before playing at beginning of their recording. Our algorithm will 
+                                        use this as a benchmark to align the music in each individual clip.
                                     </p>
                                 </div>
                             </div>
@@ -219,8 +219,8 @@
 
 
 
-        <section class="section section-lg">
-            <div class="container">
+        <section class="section section-lg pb-0">
+            <div class="container pb-0">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="row mb-3 align-self-start">
                         <div class="col text-center align-self-start">
@@ -230,13 +230,13 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <h4 class="lead mt-0 font-weight-bold">Student. Programmer. Violist. Composer.</h4>
-                        <p class="lead mb-5">Hey, I'm Thomas, a computer science major at Rice University. As a composer myself, I also experienced the frustrating
+                        <h4 class="lead mt-0 mb-4 font-weight-bold">Student. Programmer. Violist. Composer.</h4>
+                        <!-- <p class="lead mb-5">Hey, I'm Thomas, a computer science major at Rice University. As a composer myself, I also experienced the frustrating
                                                         reality of putting together virtual ensemble recordings. Hiring an editor is expensive and diy-ing your own version 
                                                         requires an ungodly amount of time. With music educators mainly using such virtual ensembles
                                                         videos for performances to continue providing an immersive music education for students, I wanted to make this process just 
                                                         a little bit easier for everyone.
-                        </p>
+                        </p> -->
                     </div>
                 </div>
                  <div class="col-md-6 mr-md-auto ml-md-auto mt--100">
@@ -273,6 +273,18 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center mb-3">
+                    <div class="row mb-3 align-self-start">
+                    </div>
+                    <div class="col-lg-10">
+                        <p class="lead mb-5">Hey, I'm Thomas, a computer science major at Rice University. As a composer myself, I also experienced the frustrating
+                                                        reality of putting together virtual ensemble recordings. Hiring an editor is expensive and diy-ing your own version 
+                                                        requires an ungodly amount of time. With music educators mainly using such virtual ensembles
+                                                        videos for performances to continue providing an immersive music education for students, I wanted to make this process just 
+                                                        a little bit easier for everyone.
+                        </p>
                     </div>
                 </div>
             </div>
