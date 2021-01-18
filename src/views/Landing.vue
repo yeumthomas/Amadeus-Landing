@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-12 col-xs-12 col-sm-12 px-0 mt-5 pt-5 mr-xs-2 mr-sm-2">
                         <h1 class="display-2  text-secondary display-sm-4" style="font-family: Helvetica Neue">Arrange Virtual Ensembles 
-                            with AI.</h1>
+                            with Automation.</h1>
                         <p class="lead  text-white">Skip the high fees, long editing time, and complicated 
                             production. Create your virtual ensemble recording with a single click.</p>
                         <div>
@@ -165,7 +165,7 @@
                                         rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-tertiary">STEP 1: Record with a Clap</h5>
+                                    <h5 class="title text-tertiary"><strong>STEP 1:</strong> Record with a Clap</h5>
                                     <p class="text-default">Instruct musicians to clap a set time period before playing at beginning of clip. Our algorithm will 
                                         use this as a benchmark to align the music in each individual recording.
                                     </p>
@@ -183,8 +183,9 @@
                                         rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-tertiary">STEP 2: Upload Videos</h5>
-                                    <p class="text-default">Upload all videos of individual recordings to Amadeus via our editing portal.
+                                    <h5 class="title text-tertiary"><strong>STEP 2:</strong> Upload Videos</h5>
+                                    <p class="text-default">Upload all videos of individual recordings to Amadeus via our in-house editing portal.
+                                                             Our simple interface allows for quick project creation with ease.
                                     </p>
                                 </div>
                             </div>
@@ -200,9 +201,9 @@
                                         rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-tertiary">STEP 3: Generate Virtual Ensemble</h5>
-                                    <p class="text-default">With the press of a button, Amadeus will automatically generate a 
-                                        virtual ensemble video, which you can then download and share to the world!
+                                    <h5 class="title text-tertiary"><strong>STEP 3:</strong> Generate Virtual Ensemble</h5>
+                                    <p class="text-default">With the press of a button, Amadeus will queue your request to generate a 
+                                        virtual ensemble video, which will be ready for download in 24-48 hours.
                                     </p>
                                 </div>
                             </div>
@@ -225,13 +226,16 @@
                         <div class="col text-center align-self-start">
                             <icon name="fa fa-user" class=" align-items-center align-self-start bg-default" size="lg" type="white" shadow
                                   rounded></icon>
-                            <span class="display-1 text-default" style="font-family: Helvetica Neue"> Amadeus was Developed by</span>
+                            <span class="display-1 text-default" style="font-family: Helvetica Neue"> Amadeus was Developed by Thomas Yeum</span>
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <h4 class="lead mt-0 font-weight-bold">A Student. Programmer. Violist. Composer.</h4>
-                        <p class="lead text-muted mb-5">Hey, I'm Thomas. I made this service after I saw the impact of COVID-19 on
-                                                    music education in America. This was the solution I came up with.
+                        <h4 class="lead mt-0 font-weight-bold">Student. Programmer. Violist. Composer.</h4>
+                        <p class="lead mb-5">Hey, I'm Thomas, a computer science major at Rice University. As a composer myself, I also experienced the frustrating
+                                                        reality of putting together virtual ensemble recordings. Hiring an editor is expensive and diy-ing your own version 
+                                                        requires an ungodly amount of time. With music educators mainly using such virtual ensembles
+                                                        videos for performances to continue providing an immersive music education for students, I wanted to make this process just 
+                                                        a little bit easier for everyone.
                         </p>
                     </div>
                 </div>
@@ -287,7 +291,7 @@
                             <div class="col-lg-8">
                                 <h3 class="text-white">We made making virtual ensembles easier.</h3>
                                 <p class="lead text-white mt-3">With the orchestras, choirs, bands in mind, we provide 
-                                    a by musicians for musicians experience to simplify this process. We hope you 
+                                    a by-musicians-for-musicians experience to simplify this process. We hope you 
                                     enjoy it!</p>
                             </div>
                             <div class="col-lg-3 ml-lg-auto">

@@ -2,7 +2,7 @@
     <header class="header-global fixed-top">
         <base-nav class="bg-default fixed-top" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/brand/white.png" alt="logo">
+                <img src="img/logo-white.png" alt="logo" style="width: 150px; height: auto;">
             </router-link>
 
             <!-- For Mobile View -->
