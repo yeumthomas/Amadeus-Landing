@@ -1,7 +1,7 @@
 <template>
     <header class="header-global fixed-top">
         <base-nav class="bg-default fixed-top" transparent type="" effect="light" expand>
-            <a class="navbar-brand mr-lg-5" href="https://amadeus.video">
+            <a class="navbar-brand mr-lg-5 no-show-on-sm" href="https://amadeus.video">
                 <img src="img/logo-white.png" alt="logo" style="width: 150px; height: auto;">
             </a>
  
@@ -9,7 +9,7 @@
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
                     <a href="https://www.amadeus.video">
-                        <img src="img/brand/blue.png">
+                        <img src="img/logo-blue.png">
                     </a>
                 </div>
                 <div class="col-6 collapse-close">
@@ -19,11 +19,9 @@
 
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <a slot="title" href="/" class="nav-link" data-toggle="dropdown" role="button">
-                    <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Home</span>
                 </a>
                 <a slot="title" href="/pricing" class="nav-link" data-toggle="dropdown" role="button">
-                    <i class="ni ni-ui-04 d-lg-none"></i>
                     <span class="nav-link-inner--text">Pricing</span>
                 </a>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
@@ -53,4 +51,26 @@ export default {
 };
 </script>
 <style>
+@media (max-width: 768px) {
+    .show-on-sm {
+        display: inline !important;
+    }
+
+    .no-show-on-sm {
+        display: none !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .smaller-title {
+        font-size: 10px !important;
+    }
+    .show-on-lg {
+        display: inline !important;
+    }
+
+    .no-show-on-lg {
+        display: none !important;
+    }
+}
 </style>

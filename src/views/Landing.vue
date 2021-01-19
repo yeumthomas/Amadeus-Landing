@@ -18,7 +18,7 @@
                         </div>
                         <div class="btn-wrapper mt-5 mb-5">
                             <base-button tag="a"
-                                            href="https://"
+                                            href="https://www.my.amadeus.video/login"
                                             class="mb-3 mb-sm-0"
                                             type="default"
                                             icon="fa fa-edit">
@@ -100,13 +100,25 @@
         <!-- SECTION #3: DESCRIPTION -->
         <section class="section section-lg">
             <div class="container">
-                <div class="row mb-5 align-self-start">
+
+                <!-- Large -->
+                <div class="row mb-5 align-self-start show-on-lg no-show-on-sm">
                     <div class="col text-center align-self-start">
                         <icon name="fa fa-music" class=" align-items-center align-self-start bg-default" size="lg" type="white" shadow
                                   rounded></icon>
                         <span class="display-1 text-default" style="font-family: Helvetica Neue">  By Musicians For Musicians</span>
                     </div>
                 </div>
+
+                <!-- Small -->
+                <div class="row mb-5 align-self-start show-on-sm no-show-on-lg">
+                    <div class="col text-center align-self-start">
+                        <icon name="fa fa-music" class=" align-items-center align-self-start bg-default" size="md" type="white" shadow
+                                  rounded></icon>
+                        <span class="display-4 text-default" style="font-family: Helvetica Neue">  By Musicians For Musicians</span>
+                    </div>
+                </div>
+
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
                         <img src="graphic.png" style="min-width: 100%" class="img-fluid floating">
@@ -149,13 +161,30 @@
             <div class="shape shape-style-1 shape-default shape-skew">
             </div>
             <div class="container">
-                <div class="row pt-7 mb-3 align-self-start">
-                    <div class="col text-center align-self-start">
-                        <icon name="ni ni-settings" class=" align-items-center align-self-start bg-gradient-white" size="lg" type="primary" shadow
+
+                <!--  Large -->
+                <div class="row justify-content-center text-center mb-lg show-on-lg no-show-on-sm mt-4">
+                    <div class="row mb-3 align-self-start">
+                        <div class="col text-center align-self-start mt-2">
+                            <icon name="ni ni-settings" class=" align-items-center align-self-start bg-white" size="lg" type="primary" shadow
                                   rounded></icon>
-                        <span class="display-1 text-white" style="font-family: Helvetica Neue"> Completed in 3 Steps</span>
+                            <span class="display-1 text-white" style="font-family: Helvetica Neue"> Completed in 3 Steps</span>
+                        </div>
                     </div>
                 </div>
+
+                    <!-- Small -->
+                <div class="row justify-content-center text-center mb-lg show-on-sm no-show-on-lg mt-4">
+                    <div class="row mb-3 align-self-start">
+                        <div class="col text-center align-self-start mt-1">
+                            <icon name="ni ni-settings" class=" align-items-center align-self-start bg-white" size="md" type="primary" shadow
+                                  rounded></icon>
+                            <span class="display-4 text-white" style="font-family: Helvetica Neue"> Completed in 3 Steps</span>
+                        </div>
+                    </div>
+                </div>
+
+                
                 <div class="row row-grid align-items-center justify-content-center">
                     <div class="col-lg-6 order-lg-2">
                         <card shadow class="shadow-lg--hover mt-5">
@@ -219,14 +248,37 @@
 
 
 
-        <section class="section section-lg pb-0">
-            <div class="container pb-0">
-                <div class="row justify-content-center text-center mb-lg">
+        <section class="section section-lg pt-5 pb-0">
+            <div class="container">
+                <!-- Large -->
+                <div class="row justify-content-center text-center mb-lg show-on-lg no-show-on-sm">
                     <div class="row mb-3 align-self-start">
                         <div class="col text-center align-self-start">
                             <icon name="fa fa-user" class=" align-items-center align-self-start bg-default" size="lg" type="white" shadow
                                   rounded></icon>
-                            <span class="display-1 text-default" style="font-family: Helvetica Neue"> Amadeus was Developed by Thomas Yeum</span>
+                            <span class="display-1 text-default" style="font-family: Helvetica Neue"> Meet the Developer</span>
+                        </div>
+                    </div>
+                    <div class='row text-center justify-content-center'>
+                        <div class="col-lg-8 text-center">
+                            <h4 class="text-center lead mt-0 mb-4 font-weight-bold">Student. Programmer. Violist. Composer.</h4>
+                            <!-- <p class="lead mb-5">Hey, I'm Thomas, a computer science major at Rice University. As a composer myself, I also experienced the frustrating
+                                                            reality of putting together virtual ensemble recordings. Hiring an editor is expensive and diy-ing your own version 
+                                                            requires an ungodly amount of time. With music educators mainly using such virtual ensembles
+                                                            videos for performances to continue providing an immersive music education for students, I wanted to make this process just 
+                                                            a little bit easier for everyone.
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Small -->
+                <div class="row justify-content-center text-center mb-lg show-on-sm no-show-on-lg">
+                    <div class="row mb-3 align-self-start">
+                        <div class="col text-center align-self-start">
+                            <icon name="fa fa-user" class=" align-items-center align-self-start bg-default" size="md" type="white" shadow
+                                  rounded></icon>
+                            <span class="display-4 text-default" style="font-family: Helvetica Neue"> Meet the Developer</span>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -239,10 +291,12 @@
                         </p> -->
                     </div>
                 </div>
-                 <div class="col-md-6 mr-md-auto ml-md-auto mt--100">
+
+
+                <div class="col-md-6 mr-md-auto ml-md-auto">
                     <div class="justify-content-center">
                         <img src="img/thomas_yeum.jpg" class="shadow shadow-lg--hover rounded-circle img-center img-fluid"
-                                style="width: 300px;">
+                                style="width: 250px;">
                     </div>
                     <div class="pt-4 text-center">
                         <h5 class="title">
@@ -275,11 +329,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center text-center mb-3">
-                    <div class="row mb-3 align-self-start">
-                    </div>
-                    <div class="col-lg-10">
-                        <p class="lead mb-5">Hey, I'm Thomas, a computer science major at Rice University. As a composer myself, I also experienced the frustrating
+                <div class="row justify-content-center text-center mb-3 px-2">
+                    <div class="col-lg-9 pt-5 px-0">
+                        <p class="text-center mb-5">Hey, I'm Thomas, a computer science major at Rice University. As a composer myself, I also experienced the frustrating
                                                         reality of putting together virtual ensemble recordings. Hiring an editor is expensive and diy-ing your own version 
                                                         requires an ungodly amount of time. With music educators mainly using such virtual ensembles
                                                         videos for performances to continue providing an immersive music education for students, I wanted to make this process just 
@@ -328,3 +380,33 @@ export default {
   components: {Images}
 };
 </script>
+
+<style scoped>
+
+@media (max-width: 768px) {
+    .smaller-title {
+        font-size: 10px !important;
+    }
+    .show-on-sm {
+        display: inline !important;
+    }
+
+    .no-show-on-sm {
+        display: none !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .smaller-title {
+        font-size: 10px !important;
+    }
+    .show-on-lg {
+        display: inline !important;
+    }
+
+    .no-show-on-lg {
+        display: none !important;
+    }
+}
+
+</style>
