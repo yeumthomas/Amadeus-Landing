@@ -18,7 +18,7 @@
                         </div>
                         <div class="btn-wrapper mt-5 mb-5">
                             <base-button tag="a"
-                                            href="https://www.my.amadeus.video/login"
+                                            href="/pricing"
                                             class="mb-3 mb-sm-0"
                                             type="default"
                                             icon="fa fa-edit">
