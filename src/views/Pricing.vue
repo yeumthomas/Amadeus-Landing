@@ -4,99 +4,117 @@
         <section class="section-hero section-shaped my-0">
             <div class="shape shape-style-1 shape-primary">
             </div>
-            <div class="ml-lg-8 ml-md-5 ml-4 mr-4 mr-lg-0 mr-md-5 pt-7 shape-container d-flex">
+            <div class="ml-lg-8 ml-md-5 ml-4 mr-4 mr-lg-0 mr-md-5 pt-9 shape-container d-flex">
                 <div class="row">
-                    <div class="col-lg-5 col-md-12 col-xs-12 col-sm-12 px-0 mt-5 pt-5 mr-xs-2 mr-sm-2">
-                        <h1 class="display-2  text-secondary display-sm-4" style="font-family: Helvetica Neue">Arrange Virtual Ensembles 
-                            with AI.</h1>
-                        <p class="lead  text-white">Skip the high fees, long editing time, and complicated 
-                            production. Create your virtual ensemble recording with a single click.</p>
-                        <div>
-                            <badge type="white" class="bg-tertiary" rounded>Customized</badge>
-                            <badge type="white" class="bg-tertiary" rounded>Affordable</badge>
-                            <badge type="white" class="bg-tertiary" rounded>Quick</badge>
-                        </div>
-                        <div class="btn-wrapper mt-5 mb-5">
-                            <base-button tag="a"
-                                            href="https://"
-                                            class="mb-3 mb-sm-0"
-                                            type="default"
-                                            icon="fa fa-edit">
-                                Create Now
-                            </base-button>
-                        </div>
+                    <div class="col-lg-5 col-md-12 col-xs-12 col-sm-12 px-0 mt-6 pt-5 mr-xs-2 mr-sm-2 mr-md-6">
+                        <h1 class="display-2  text-secondary display-sm-4" 
+                            style="font-family: Helvetica Neue">Contact Us for Rates & Registration</h1>
+                        <p class="lead  text-white">Amadeus racks up a quite a bit of storage costs, so to 
+                            keep this service running we do charge a fee.</p>
+                        <p class="font-weight-bold text-white">This service is completely free to students and to all 
+                            KatyISD orchestra, band, and choir directors.</p>
                     </div>         
-                    <div class="col-lg-6 text-center mt-5 pt-5 d-xs-none d-lg-inline">
-                        <img src="../assets/media/macbook-mockup.png"
-                        class="img-fluid pt-4 d-none d-lg-inline">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section section-lg">
-            <div class="container">
-                <div class="row justify-content-center text-center mb-lg">
-                    <div class="col-lg-8">
-                        <h2 class="display-3">Amadeus was developed by Thomas Yeum</h2>
-                        <p class="lead text-muted">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'img/theme/team-1-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">Ryan Tompson</span>
-                                    <small class="h6 text-muted">Web Developer</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
-                                </div>
-                                <div class="row row-grid align-items-center my-md">
-                                    <div class="col-lg-6 text-lg-center btn-wrapper">
-                                        <a target="_blank" rel="noopener" href="https://twitter.com/creativetim"
-                                        class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
-                                        data-original-title="Follow us">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a target="_blank" rel="noopener" href="https://www.facebook.com/creativetim"
-                                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
-                                        data-original-title="Like us">
-                                            <i class="fa fa-facebook-square"></i>
-                                        </a>
-                                        <a target="_blank" rel="noopener" href="https://dribbble.com/creativetim"
-                                        class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"
-                                        data-original-title="Follow us">
-                                            <i class="fa fa-dribbble"></i>
-                                        </a>
-                                        <a target="_blank" rel="noopener" href="https://github.com/creativetimofficial"
-                                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
-                                        data-original-title="Star on Github">
-                                            <i class="fa fa-github"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                    <div class="col-lg-6 text-center mt-5 pt-4 mb-5"> 
+                        <div class='row'>
+                            <div class="col text-center">
+                                <img src="../../public/email.svg"
+                                class="img-fluid"
+                                style="width: 23rem">
                             </div>
                         </div>
-                    </div>            
+                        <div class='row'>
+                            <div class="col text-center"
+                                style="margin-top: -5rem;">
+                                <base-button tag="a"
+                                    type="default" 
+                                    class=""
+                                    icon="ni ni-send"
+                                    href="mailto:my.amadeusvideo@gmail.com"
+                                    >Send an Email
+                                </base-button>
+                            </div>
+                        </div>
+                            <!-- <div class='col text-center align-self-center'>
+                        <!-- d-xs-none d-lg-inline  -->
+                        <!-- <card class="px-0 mx-0"
+                        style="padding: 1rem;"
+                        type="white" 
+                        shadow> -->
+                                <!-- <div class="text-primary py-2 h2">
+                                    <div class="row text-center">
+                                    </div>
+                                </div>
+                            </div> -->
+                        <!-- <div class="row align-items-center d-flex"
+                            style="height: 10rem">
+                        </div> -->
+                        <!-- </card> -->
+                        
+                        <!-- <card shadow class="">
+                            <div class="text-left text-primary py-2 h2">
+                                <i class="ni ni-send"></i>
+                                <a href="mailto:my.amadeusvideo@gmail.com" 
+                                    class="text-primary display-5" 
+                                    style="font-family: Helvetica Neue"> 
+                                    my.amadeusvideo@gmail.com</a>
+                            </div> -->
+
+                            <!-- <template>
+                                <form role="form">
+                                    <base-input alternative
+                                                class="mb-3"
+                                                placeholder="Sender Email Address"
+                                                addon-left-icon="fa fa-pencil"
+                                                v-model="email">
+                                    </base-input>
+                                    <base-input alternative
+                                                class="mb-3"
+                                                placeholder="Sender Name"
+                                                addon-left-icon="ni ni-circle-08"
+                                                v-model="name">
+                                    </base-input>
+                                    <base-input alternative
+                                                placeholder="Subject"
+                                                addon-left-icon="ni ni-email-83"
+                                                v-model="subject">
+                                    </base-input>
+                                    <textarea v-model="body" class="form-control" id="body" rows="5" placeholder="Write email here ..."></textarea>
+
+                                    <div class="alert alert-danger m-0 p-2 text-center" role="alert" v-if="emailError">
+                                        Error sending email.
+                                    </div>
+                                    <div class="alert alert-success m-0 p-2 text-center" role="alert" v-if="emailSuccess">
+                                        Successfully sent email.
+                                    </div>
+                                    <div class="text-center">
+                                        <base-button type="primary" v-on:click=sendIt() class="my-4">Send</base-button>
+                                    </div>
+                                </form>
+                            </template> -->
+                        <!-- </card> -->
+                    </div>
                 </div>
             </div>
         </section>
+    
     </div>
 </template>
 
 <script>
 export default {
-  name: "Pricing"
+  name: "Pricing",
+  data () {
+      return{
+          name: '',
+          email: '',
+          subject: '',
+          body: ''
+      }
+  },
+  methods: {
+      async sendIt() {
+
+      }
+  }
 };
 </script>
