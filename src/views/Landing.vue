@@ -106,7 +106,7 @@
                     <div class="col text-center align-self-start">
                         <icon name="fa fa-music" class=" align-items-center align-self-start bg-default" size="lg" type="white" shadow
                                   rounded></icon>
-                        <span class="display-1 text-default" style="font-family: Helvetica Neue">  By Musicians For Musicians</span>
+                        <span class="display-1 text-default" style="font-family: Helvetica Neue">  By Musicians, For Musicians</span>
                     </div>
                 </div>
 
@@ -115,7 +115,7 @@
                     <div class="col text-center align-self-start">
                         <icon name="fa fa-music" class=" align-items-center align-self-start bg-default" size="md" type="white" shadow
                                   rounded></icon>
-                        <span class="display-4 text-default" style="font-family: Helvetica Neue">  By Musicians For Musicians</span>
+                        <span class="display-4 text-default" style="font-family: Helvetica Neue">  By Musicians, For Musicians</span>
                     </div>
                 </div>
 
@@ -153,6 +153,44 @@
                     </div>
                 </div>
             </div>
+
+                <!-- LARGE VERSION -->
+                <card gradient="lighter"
+                      no-body
+                      shadow-size="lg"
+                      class="border-0 mx-9">
+                    <div class="row align-items-center pt-5 show-on-lg no-show-on-sm">
+                        <div class="col text-center">
+                            <div class="col text-center align-self-start">
+                                <span class="display-2 text-default" style="font-family: Helvetica Neue">How To Use Amadeus</span>
+                            </div>
+                            <iframe width="90%" height="640" src="https://www.youtube.com/embed/9fZOJzR4I54" 
+                            frameborder="0" 
+                            class="mt-5 mb-5"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </card>
+
+                <!-- SMALL VERSION -->
+                <card gradient="lighter"
+                      no-body
+                      shadow-size="lg"
+                      class="border-0 mx-2">
+                    <div class="row align-items-center pt-5 show-on-sm no-show-on-lg">
+                        <div class="col text-center">
+                            <div class="col text-center align-self-start">
+                                <span class="display-2 text-default" style="font-family: Helvetica Neue">How To Use Amadeus</span>
+                            </div>
+                            <iframe width="90%" height="320" src="https://www.youtube.com/embed/9fZOJzR4I54" 
+                            frameborder="0" 
+                            class="mt-5 mb-5"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </card>
         </section>
 
 
