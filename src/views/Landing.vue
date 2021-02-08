@@ -158,7 +158,7 @@
                 <card gradient="lighter"
                       no-body
                       shadow-size="lg"
-                      class="border-0 mx-9">
+                      class="border-0 mx-9 mt-7">
                     <div class="row align-items-center pt-5 show-on-lg no-show-on-sm">
                         <div class="col text-center">
                             <div class="col text-center align-self-start">
