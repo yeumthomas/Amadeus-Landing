@@ -369,7 +369,7 @@
                 </div>
                 <div class="row justify-content-center text-center mb-3 px-2">
                     <div class="col-lg-9 pt-5 px-0">
-                        <p class="text-center mb-5">Hey, I'm Thomas, a computer science major at Rice University. As a composer myself, I also experienced the frustrating
+                        <p class="text-center mb-5">Hey, I'm Thomas, a computer science major at Columbia University. As a composer myself, I also experienced the frustrating
                                                         reality of putting together virtual ensemble recordings. Hiring an editor is expensive and diy-ing your own version 
                                                         requires an ungodly amount of time. With music educators mainly using such virtual ensembles
                                                         videos for performances to continue providing an immersive music education for students, I wanted to make this process just 
